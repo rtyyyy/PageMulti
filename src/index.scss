@@ -1,0 +1,103 @@
+.multi__body{
+.multi__1block{
+    background: url("img1/bg__main.png");
+    width: 1510px;
+    height: 747px;
+    margin: auto;
+    
+    .multi__bg{
+        background-color: #252B49;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+    .block1__header{
+        display: flex;
+        width: 1170px;
+        height: 100px;
+        margin: auto;
+        border-bottom:1px solid #BABBC5 ;
+        .left__menu{
+            div{
+                font-size: 45px;
+                display: flex;
+                margin-right: 320px;
+                margin-top: 19px;
+                span{
+                    
+                
+                font-weight: 700;
+                    font-size: 45px;
+                    color: #656980;
+                }
+            }
+        }
+        .right__menu{
+            ul {
+            display:flex ;
+            justify-content: flex-end;
+            margin: 0;
+            padding: 0;
+                li{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-transform: uppercase;
+                    list-style-type: none;
+                    width: 134px;
+                    height: 100px;
+                    a{
+                    
+                        text-decoration: none;
+                        color: #FFFFFF;
+                        
+                    }
+                    
+                }
+                li:hover{
+                    border-bottom: 3px solid #BABBC5;
+                }
+                
+            }
+            
+
+        }
+
+    }
+    .block1__main--text{
+        width: 1170px;
+        height: 150px;
+        margin: auto;
+        color: #FFFFFF;
+        font-size: 64px;
+        text-align: center;
+        margin-top: 130px;
+    }
+    .block1__2text{
+        
+        width: 1170px;
+        height: 56px;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        margin: auto;
+        margin-top: 31px;
+        margin-left: 170px;
+    }
+    .block1__button{
+        button{ 
+            width: 370px;
+            height: 80px;
+            background: #FF4343;
+            border: none;
+            color: #FFFFFF;
+            font-size: 24px;
+            font-weight: 900;
+            margin: 80px 570px 0 570px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    }
+}
+}
+}
