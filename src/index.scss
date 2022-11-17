@@ -97,4 +97,43 @@
     }
 }
 }
+.multi__2block{
+    width: 1170px;
+    margin: auto;
+    margin-top: 116px;
+    .block2__parts{
+        display: grid;
+        
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 400px 400px ;
+    .multi__block--part{
+        width: 370px;
+        height: 305px;
+        text-align: center;
+        .block__part--img{
+            
+            height: 100px;
+            display: flex;
+            justify-content: center;
+        }
+        .block__part--name{
+            margin-top: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            height: 72px;
+            width: 370px;
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+        .block__part--text{
+            width: 370px;
+            height: 84px;
+            color: #6C7279;
+            font-size: 18px;
+        }
+    }
+}}
 }
