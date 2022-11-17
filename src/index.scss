@@ -136,4 +136,87 @@
         }
     }
 }}
+.multi__block3{
+    width: 1510px;
+    margin: auto;
+    .multi__block3--pictures{
+        position: relative;
+        z-index: 0;
+        ul{
+            
+            display: grid;
+            margin: auto;
+            padding: 0;
+            width: 100%;
+            grid-template-columns: 378px 380px 378px 378px;
+            grid-template-rows: 340px 340px ;
+            z-index: 0;
+            position: relative;
+            li{
+                list-style-type:none;
+                position: relative;
+                z-index: 1;
+                img{
+                width: 100%;
+                height: 100%;
+                }
+                .text1{
+                    position: absolute;
+                    left: 55%;
+                    top: 40%;
+                    transform: translate(-60%, -60%);
+                    color: #fff;
+                    z-index: 1;
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-size: 24px;
+                    font-weight: 900;
+                    margin-bottom: 20px;
+                }
+                .text2{
+                    position: absolute;
+                    left: 51%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    color: #fff;
+                    z-index: 1;
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                
+            }
+            li::after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "";
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                background:rgba(255, 67, 67, 0.8) ;
+                transition: 0.3s;
+            }
+            li:hover::after {
+                opacity: 1;
+                
+            }
+            li:hover{
+                .text1{
+                    
+                    opacity: 1;
+                    transition: 0.3s;
+                }
+                .text2{
+                    
+                    opacity: 1;
+                    transition: 0.3s;
+                }
+                
+            }
+            
+        }
+    }
+}
 }
